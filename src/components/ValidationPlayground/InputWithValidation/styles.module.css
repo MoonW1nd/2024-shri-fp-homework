@@ -1,0 +1,57 @@
+.root {
+    display: inline-block;
+    width: 400px;
+    background-color: #ececec;
+    vertical-align: top;
+    margin-right: 30px;
+    padding: 15px;
+    border-radius: 4px;
+}
+
+.shapes {
+    padding: 5px;
+    margin: 10px 0;
+    width: 193px;
+    height: 52px;
+
+    will-change: border-bottom, background-color;
+
+    transition: 200ms;
+}
+
+.shapesUntouched {
+    border-bottom: 2px solid #8c8c8c;
+}
+
+.shapesValid {
+    border-bottom: 2px solid green;
+    background-color: lightgreen;
+}
+
+.shapesInvalid {
+    border-bottom: 2px solid red;
+    background-color: lightpink;
+}
+
+.shape {
+    shape-rendering: crispEdges;
+    transition: fill 300ms;
+    stroke: #212121;
+    strokeWidth: 2;
+}
+
+.shapeColorWite {
+    fill: white;
+}
+.shapeColorRed {
+    fill: red;
+}
+.shapeColorOrange {
+    fill: orange;
+}
+.shapeColorGreen {
+    fill: green;
+}
+.shapeColorBlue {
+    fill: blue;
+}
